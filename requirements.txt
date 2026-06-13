@@ -1,0 +1,6 @@
+streamlit
+pandas
+sentiment_analysis_spanish
+scikit-learn
+numpy
+plotly.express
