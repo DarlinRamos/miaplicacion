@@ -120,7 +120,7 @@ def main():
         with col2:
             st.subheader("👩‍💻 Sobre mí")
             st.write("""
-            Soy estudiante de cuarto año de Ingeniería en Sistemas
+            Soy estudiante de quinto año de Ingeniería en Sistemas
             y Redes Informáticas, con interés en Ciencia de Datos,
             Machine Learning, diseño de interfaces y análisis
             de información.
