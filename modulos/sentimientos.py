@@ -23,22 +23,21 @@ def sentimientos():
 
         else:
 
-            # TextBlob solo entiende inglés,
-            # por eso traducimos antes de analizar
+            
             try:
                 texto_en = TextBlob(texto).translate(
                     from_lang="es", to="en"
                 )
                 analisis = TextBlob(str(texto_en))
             except Exception:
-                # Si falla la traducción, analizar directo
+               
                 analisis = TextBlob(texto)
 
             polaridad = analisis.sentiment.polarity
 
             st.subheader("Resultado")
 
-            # Mostrar barra de polaridad
+        
             st.progress(
                 int((polaridad + 1) / 2 * 100),
                 text=f"Polaridad: {polaridad:.2f}  (-1 negativo → +1 positivo)"
