@@ -1,6 +1,7 @@
 streamlit
 pandas
-sentiment_analysis_spanish
+plotly
+Pillow
 scikit-learn
 numpy
-plotly.express
+textblob
